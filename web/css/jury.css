@@ -1,0 +1,33 @@
+.tab-jury {
+    background-color: #eee;
+}
+.row-jury {
+    background-color: #feee;
+}
+.hdr-item {
+    background-color: #efe;
+    white-space: nowrap;
+    padding: .4em;
+    border: 1px dotted black;
+    border-radius: .4em;
+}
+.item-bib {
+    background-color: #eef;
+    white-space: nowrap;
+    padding: .2em .4em .2em .4em;
+    margin-right: 1em;
+    border: 1px dotted black;
+    border-radius: .4em;
+    display: inline-block;
+}
+.body-item {
+    background-color: gold;
+    white-space: nowrap;
+    padding: .4em;
+    border: 1px dotted black;
+    border-radius: .4em;
+}
+.but-pad {
+    margin: .3em;
+    font-size: 120%;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Jury Name",
+  "short_name": "Jury",
+  "description": "Jury app for some event",
+  "start_url": ".",
+  "id": "web-search",
+  "display": "standalone",
+  "background_color": "#47b74f",
+  "theme_color": "#438948",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "images/icon_bg.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+    "push": {
+      "description": "get up to date info from BE"
+    },
+    "desktop-notification": {
+      "description": "get up to date info from BE"
+    }
+  },
+  "locales": {
+    "cz": {
+      "name": "Rozhodčí naSoutěži",
+      "description": "Aplikace pro rozhodčí"
+    },
+    "en": {
+      "name": "Jury at anEvent",
+      "description": "Application for juries"
+    }
+  }
+}
